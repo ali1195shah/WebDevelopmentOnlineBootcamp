@@ -5,18 +5,23 @@ body {
 }
 
 h1 {
-    margin-top: 0px;
+    margin: 50px auto 0 auto;
     margin-bottom: 0px;
     font-family: 'Sacramento', cursive;
-    font-size: 562%;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    /* line-height: 2.5; */
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.05rem;
+    color: #66BFBF;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E
 }
 
 .top-container {
@@ -50,8 +55,13 @@ h3 {
 }
 
 
-
-
-
-
 /* 100% is equal to 16px */
+/* 16px = 100% = 1em */
+
+span{
+    text-decoration: underline;
+}
+
+#sub-title{
+    font-weight: normal;
+}
