@@ -41,6 +41,21 @@ span {
     text-decoration: underline;
 }
 
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6
+}
+
+
+/* ********************************************************************************** */
+
+
 .top-container {
     background-color: #E4F9F5;
     position: relative;
@@ -107,17 +122,6 @@ span {
     padding: 30px;
 }
 
-a {
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px;
-    text-decoration: none;
-}
-
-a:hover{
-    color: #EAF6F6
-}
-
 .copyright{
     color: #EAF6F6;
     font-size: 0.75rem;
@@ -150,6 +154,10 @@ a:hover{
     background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
     background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
   }
+
+
+  /* ********************************************************************************** */
+
 
   #sub-title{
     font-weight: normal;
