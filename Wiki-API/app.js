@@ -68,7 +68,7 @@ app.route("/articles/:articleTitle")
         } else {
             res.send(err);
         }
-    });
+    })
 })
 .put(function(req, res){
     console.log(req)
